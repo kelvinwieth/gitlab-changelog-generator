@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Gitlab Changelog Generator",
+  "description": "A browser extension to generate changelog files for releases on Gitlab.",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://gitlab.com/*/releases/new"]
+    }
+  ]
+}
