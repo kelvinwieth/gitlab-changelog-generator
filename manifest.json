@@ -5,8 +5,10 @@
   "version": "0.0.1",
   "content_scripts": [
     {
-      "js": ["scripts/content.js"],
+      "js": ["js/content.js"],
+	  "css": ["css/styles.css"],
       "matches": ["https://gitlab.com/*/releases/new"]
     }
-  ]
+  ],
+  "run_at": "document_end"
 }
