@@ -1,5 +1,6 @@
 async function onClick() {
   // Get token
+  const token = prompt('Insert your Gitlab Token with read scope:');
 
   // Get project and repository on the url
 
