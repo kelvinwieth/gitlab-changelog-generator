@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "js": ["js/content.js"],
-	  "css": ["css/styles.css"],
+      "css": ["css/styles.css"],
       "matches": ["https://gitlab.com/*/releases/new"]
     }
   ]
