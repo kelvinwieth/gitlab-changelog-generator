@@ -1,9 +1,27 @@
+async function onClick() {
+  // Get token
+
+  // Get project and repository on the url
+
+  // Get last tag date
+
+  // Get commits since last tag date
+
+  // Parse commits into info strings
+
+  // Separate info strings by conventional commits
+
+  // Generate markdown text
+
+  // Put markdown text inside form
+}
+
 function getButton() {
   const button = document.createElement("button");
   button.textContent = "Generate Changelog";
   button.classList.add("btn");
   button.classList.add("extension-button-generate-changelog");
-  button.onclick = () => alert("Generating changelog...");
+  button.onclick = onClick;
 
   return button;
 }
