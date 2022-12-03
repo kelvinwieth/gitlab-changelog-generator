@@ -1,8 +1,12 @@
 async function onClick() {
   // Get token
-  const token = prompt('Insert your Gitlab Token with read scope:');
+  const token = prompt("Insert your Gitlab Token with read scope:");
 
   // Get project and repository on the url
+  const url = window.location.toString();
+  const urlParts = url.split('/');
+  const project = urlParts[3];
+  const repository = urlParts[4];
 
   // Get last tag date
 
