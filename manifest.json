@@ -9,6 +9,5 @@
 	  "css": ["css/styles.css"],
       "matches": ["https://gitlab.com/*/releases/new"]
     }
-  ],
-  "run_at": "document_end"
+  ]
 }
