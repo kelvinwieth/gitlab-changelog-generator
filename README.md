@@ -6,7 +6,7 @@ A browser extension to generate changelog files for releases on Gitlab.
 - A Gitlab project that uses conventional commits
 
 ## How it works
-This script creates a button that does the following:
+This script creates a button on New release page that does the following:
 1. Gets a Gitlab token
 2. Fetchs the actual project for the latest tag
 3. Gets all commits since the latest tag date
