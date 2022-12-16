@@ -2,7 +2,7 @@
 A browser extension to generate changelog files for releases on Gitlab.
 
 ## Prerequisites
-- A Gitlab API key with Read API scope
+- A Gitlab personal token with Read API scope
 - A Gitlab project that uses conventional commits
 
 ## How it works
