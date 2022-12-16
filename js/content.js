@@ -1,5 +1,6 @@
 async function onClick() {
   // Get token
+  // You can also put your token directly here, but BE AWARE TO NOT COMMIT
   const token = prompt("Insert your Gitlab Token with Read API scope:");
 
   // Get project and repository on the url
@@ -89,10 +90,10 @@ async function onClick() {
     body += "\n";
   }
 
-  if (fixed.length) {
+  if (refactored.length) {
     body += "## Refactor";
     body += "\n";
-    fixed.forEach((a) => {
+    refactored.forEach((a) => {
       body += `- ${a}\n`;
     });
     body += "\n";
@@ -136,8 +137,8 @@ async function onClick() {
   const text = title + body;
 
   // Get text form
-  const formClassName = "note-textarea js-gfm-input js-autosize markdown-area js-gfm-input-initialized";
   const textForm = document.getElementsByTagName("textarea")[0];
+  //textForm.select();
 
   // Put markdown text inside form
   // TODO: Investigate bug on this step
