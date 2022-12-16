@@ -135,8 +135,13 @@ async function onClick() {
 
   const text = title + body;
 
+  // Get text form
+  const formClassName = "note-textarea js-gfm-input js-autosize markdown-area js-gfm-input-initialized";
+  const textForm = document.getElementsByTagName("textarea")[0];
+
   // Put markdown text inside form
-  alert(text);
+  // TODO: Investigate bug on this step
+  textForm.value = text;
 }
 
 function getButton() {
