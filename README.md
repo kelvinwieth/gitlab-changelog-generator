@@ -14,6 +14,9 @@ This script creates a button on New release page that does the following:
 5. Generates a mardown text with the commits messages and URLs
 6. Puts the text inside the Release notes section
 
+## IMPORTANT - Limitations
+Gitlab Release notes text form is weird. After generating the text and putting inside it, if you click on Preview, the text will disappear. A workaround is: after generating the text, first set the release title manually, and then click on Preview. Now everything should be ok.
+
 ## How to install
 1. Clone this repository
 2. Open your browser
