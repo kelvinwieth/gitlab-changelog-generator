@@ -33,3 +33,4 @@ Gitlab Release notes text form is weird. After generating the text and putting i
 
 ## Tips
 - You can customize your conventional commits by editing [`js/content.js`](js/content.js)
+- To avoid copy and paste your token everytime, put directly on [`js/content.js`](js/content.js) - and, obviously, without commiting
